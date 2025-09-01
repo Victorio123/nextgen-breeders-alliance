@@ -31,7 +31,7 @@ const Auth = () => {
         email: formData.email,
         password: formData.password,
         options: {
-           emailRedirectTo:"https://nextgen-breeders-alliance.vercel.app/"},
+           emailRedirectTo:"https://nextgen-breeders-alliance.vercel.app/",
           data: {
             full_name: formData.fullName,
           },
