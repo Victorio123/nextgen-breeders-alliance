@@ -31,7 +31,7 @@ const Auth = () => {
         email: formData.email,
         password: formData.password,
         options: {
-          // emailRedirectTo: `${window.location.origin}/`,
+           emailRedirectTo: `${window.location.origin}/`,
           data: {
             full_name: formData.fullName,
           },
