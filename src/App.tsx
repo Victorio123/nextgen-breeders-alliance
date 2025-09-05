@@ -10,7 +10,7 @@ import Sponsorship from "./pages/Sponsorship";
 import Seminars from "./pages/Seminars";
 import Journals from "./pages/Journals";
 import Contact from "./pages/Contact";
-import Auth from "./pages/Auth";
+// import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,7 +22,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/auth" element={<Auth />} />
+{/*           <Route path="/auth" element={<Auth />} /> */}
           <Route path="/" element={<Layout><Index /></Layout>} />
           <Route path="/about" element={<Layout><About /></Layout>} />
           <Route path="/sponsorship" element={<Layout><Sponsorship /></Layout>} />
