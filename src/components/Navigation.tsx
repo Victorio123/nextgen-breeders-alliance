@@ -50,7 +50,7 @@ const Navigation = () => {
               </Link>
             ))}
 
-            {user ? (
+{/*             {user ? (
               <div className="flex items-center space-x-2">
                 <span className="ml-4 font-semibold">{user.full_name || user.email}</span>
                 <Button onClick={logout} variant="outline">
@@ -61,7 +61,7 @@ const Navigation = () => {
               <Button asChild variant="default" className="ml-4">
                 <Link to="/auth">Register</Link>
               </Button>
-            )}
+            )} */}
           </div>
 
           {/* Mobile menu button */}
