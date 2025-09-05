@@ -248,7 +248,7 @@ const Contact = () => {
                       Interested in becoming a member or attending our programs?
                     </p>
                     <Button asChild variant="outline" className="w-full">
-                      <Link to="/auth">Register Now</Link>
+{/*                       <Link to="/auth">Subscribe Now</Link> */}
                     </Button>
                   </div>
 
