@@ -98,7 +98,7 @@ const Navigation = () => {
               ))}
 
               <div className="px-3 py-2">
-                {user ? (
+{/*                 {user ? (
                   <div className="flex items-center justify-between">
                     <span className="font-semibold">{user.full_name || user.email}</span>
                     <Button onClick={logout} variant="outline">
@@ -109,7 +109,7 @@ const Navigation = () => {
                   <Button asChild variant="default" className="w-full">
                     <Link to="/auth" onClick={() => setIsOpen(false)}>
                       Register
-                    </Link>
+                    </Link> */}
                   </Button>
                 )}
               </div>
