@@ -94,8 +94,8 @@ const Contact = () => {
               NextGen Breeders Alliance welcomes your comments and questions. Please choose an area from the 
               drop-down menu below and follow the prompts. We will respond as soon as possible. If you are 
               interested in joining NextGen Breeders Alliance, please{" "}
-              <Link to="/auth" className="text-primary hover:underline font-medium">
-                click here to register
+              <Link to="/contact" className="text-primary hover:underline font-medium">
+                click here to Subscribe
               </Link>.
             </p>
           </div>
