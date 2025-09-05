@@ -114,7 +114,7 @@ const Seminars = () => {
                     </div>
                     
                     <Button asChild className="w-full">
-                      <Link to="/auth">Register Now</Link>
+                      <Link to="/auth">Subscribe Now</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -132,11 +132,11 @@ const Seminars = () => {
                 Want to Attend Our Seminars?
               </h3>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Register now to secure your spot at our upcoming seminars. Our events fill up quickly, 
+                Subscribe now to secure your spot at our upcoming seminars. Our events fill up quickly, 
                 so don't miss out on these valuable learning opportunities.
               </p>
               <Button asChild size="lg">
-                <Link to="/auth">Register Now</Link>
+                <Link to="/auth">Subscribe Now</Link>
               </Button>
             </div>
           </div>
