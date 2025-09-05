@@ -42,7 +42,7 @@ const Journals = () => {
             "A detailed study investigating how different strains impact performance characteristics in livestock breeding.",
           url: "https://doi.org/10.5281/zenodo.10250487",
           published_date: new Date().toISOString(),
-          author: "Research Team",
+          author: "Owolabi Adekemi",
           is_featured: true,
         },
         {
@@ -52,7 +52,7 @@ const Journals = () => {
             "Research highlighting the role of sex differences in relation to prolactin gene expression and performance outcomes.",
           url: "https://doi.org/10.5281/zenodo.10250487",
           published_date: new Date().toISOString(),
-          author: "Research Team",
+          author: "Owolabi Adekemi",
           is_featured: true,
         },
         {
@@ -63,7 +63,7 @@ const Journals = () => {
             "An in-depth publication combining strain and sex factors with prolactin gene expression in livestock studies.",
           url: "https://doi.org/10.5281/zenodo.10250487",
           published_date: new Date().toISOString(),
-          author: "Research Team",
+          author: "Owolabi Adekemi",
           is_featured: false,
         },
       ];
