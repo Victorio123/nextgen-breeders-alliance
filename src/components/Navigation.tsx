@@ -109,9 +109,9 @@ const Navigation = () => {
                   <Button asChild variant="default" className="w-full">
                     <Link to="/auth" onClick={() => setIsOpen(false)}>
                       Register
-                    </Link> */}
+                    </Link>
                   </Button>
-                )}
+                )} */}
               </div>
             </div>
           </div>
